@@ -9,40 +9,79 @@
 // reset rules
 // ==================================== */
 
-font-family: 'Libre Franklin', sans-serif;
-font-family: 'Sorts Mill Goudy', serif;
-
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
+.article-title {
+  font-size: 20px;
+  font-weight: 700;
+}
+
 html {
   font-size: 16px;
+  background-color: white;
 }
-main {
-  background-color: lightgray;
-}
+
+button-menu{}
 
 figure {
   margin: 0px 0px 32px;
 }
 
+body{
+  text-align: center;
+  font-family: 'Libre Franklin', sans-serif;
+  /* font-family: 'Sorts Mill Goudy', serif; */
+}
+
 main img {
-  width: 262px;
+  width: 290px;
   align-items: center;
+  padding-bottom: 30px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: left;
+  padding-top: 20px;
+  font-family: "Sorts Mill Goudy";
+  padding-left: 10px;
+  line-height: 1.2;
+  font-size: 20px;
+}
+
+.learn-more-section {
+  font-family: 'Libre Franklin';
+  font-size: 16px;
+}
+
+
+main{
+  background-color: lightgrey;
+  padding: 15px 25px;
+}
+
+
+.article-title {
+  font-size: 20px;
 }
 
 .article{
-  justify-content: center;
-  margin: auto;
+  background-color: white;
+  font-size: 20px;
+  line-height: 1.2;
 }
 
 figcaption {
   font-size: 20px;
   margin: 5px 10px;
   height: 40px;
+  padding-bottom: 80px;
+  line-height: 1.2;
 }
 
 .button-menu {
@@ -78,6 +117,7 @@ body {
 a {
   color: inherit;
 }
+
 
 img,
 video {
