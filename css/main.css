@@ -25,49 +25,79 @@ html {
   background-color: white;
 }
 
-button-menu{}
+.recipes-of-the-day-button{
+  background-color: red;
+  border-radius: 40px;
+  width: 150px;
+  margin: auto;
+  font-size: 11px;
+  font-weight: 700;
+  color: white;
+  font-family: "Libre Franklin";
+}
 
 figure {
   margin: 0px 0px 32px;
 }
 
-body{
-  text-align: center;
-  font-family: 'Libre Franklin', sans-serif;
-  /* font-family: 'Sorts Mill Goudy', serif; */
-}
 
 main img {
   width: 290px;
   align-items: center;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
 }
 
 footer {
   background-color: black;
   color: white;
   text-align: left;
-  padding-top: 20px;
+  padding: 30px 10px 25px 20px;
   font-family: "Sorts Mill Goudy";
-  padding-left: 10px;
   line-height: 1.2;
   font-size: 20px;
+}
+
+.credits{
+  font-family: "Libre Franklin";
+  font-weight: 700;
+}
+
+h2{
+  font-family: "Sorts Mill Goudy";
+  line-height: 1.5;
+  font-size: 24px;
+}
+
+.text-intro { 
+  font-family: "Sorts Mill Goudy";
+}
+
+h3{
+  font-size: 16px;
+  font-family: "Libre Franklin";
+  font-weight: 700;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .learn-more-section {
   font-family: 'Libre Franklin';
   font-size: 16px;
+  font-weight: 700;
+  line-height: 1.2;
 }
-
 
 main{
   background-color: lightgrey;
   padding: 15px 25px;
 }
 
-
 .article-title {
   font-size: 20px;
+  text-align: left;
+  padding-top: 9px;
+  padding-bottom: 10px;
+  font-family: "Sorts Mill Goudy";
 }
 
 .article{
@@ -80,13 +110,14 @@ figcaption {
   font-size: 20px;
   margin: 5px 10px;
   height: 40px;
-  padding-bottom: 80px;
+  padding-bottom: 65px;
   line-height: 1.2;
+  font-weight: 300;
 }
 
 .button-menu {
-  padding-top: 10px;
-  padding-bottom: 20px;
+  padding-top: 17px;
+  padding-bottom: 10px;
 }
 
 .philipino-menu {
@@ -112,6 +143,9 @@ body {
 
   font-size: 1rem;
   line-height: 1.5rem;
+  text-align: center;
+  font-family: 'Libre Franklin'
+  /* font-family: 'Sorts Mill Goudy', serif; */
 }
 
 a {
